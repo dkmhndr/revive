@@ -2,6 +2,17 @@
 
 import PostCard from "~/components/home/PostCard.vue";
 import FilterBar from "~/components/home/FilterBar.vue";
+import Categories from "~/components/home/Categories.vue";
+import VueBottomSheet from "@webzlodimir/vue-bottom-sheet";
+import Sort from "~/components/home/Sort.vue";
+import Offer from "~/components/home/Offer.vue";
+import {ref} from "vue";
+
+const offerBS = ref<InstanceType<typeof VueBottomSheet>>()
+
+const offerNow = () => {
+  offerBS.value.open();
+}
 
 const props = defineProps({
   id: {
@@ -47,36 +58,45 @@ const props = defineProps({
         id: 1,
         name: "Mama Yukero",
         body: "Aku ada nihhh",
-        avatar: "https://via.placeholder.com/40x40",
+        avatar: "https://placekitten.com/40/40",
         time: "12 hours ago",
         photos: [
-          "https://via.placeholder.com/150x150",
-          "https://via.placeholder.com/150x150",
-          "https://via.placeholder.com/150x150",
+          "/img/image_3.png",
+          "/img/image_4.png",
+          "/img/image_5.png",
+          "/img/image_3.png",
+          "/img/image_3.png",
+          "/img/image_3.png",
         ],
       },
       {
         id: 2,
-        name: "Mama Yukero",
-        body: "Aku ada nihhh",
-        avatar: "https://via.placeholder.com/40x40",
+        name: "Dimas Anjay",
+        body: "Gratis for you sweetheart :*",
+        avatar: "https://placekitten.com/4040",
         time: "12 hours ago",
         photos: [
-          "https://via.placeholder.com/150x150",
-          "https://via.placeholder.com/150x150",
-          "https://via.placeholder.com/150x150",
+          "/img/image_3.png",
+          "/img/image_4.png",
+          "/img/image_5.png",
+          "/img/image_3.png",
+          "/img/image_3.png",
+          "/img/image_3.png",
         ],
       },
       {
         id: 3,
         name: "Supriyadi",
         body: "Kalo mau punya gw nih",
-        avatar: "https://via.placeholder.com/40x40",
+        avatar: "https://placekitten.com/40/40",
         time: "12 hours ago",
         photos: [
-          "https://via.placeholder.com/150x150",
-          "https://via.placeholder.com/150x150",
-          "https://via.placeholder.com/150x150",
+          "/img/image_3.png",
+          "/img/image_4.png",
+          "/img/image_5.png",
+          "/img/image_3.png",
+          "/img/image_3.png",
+          "/img/image_3.png",
         ],
       },
     ]
@@ -109,9 +129,28 @@ const props = defineProps({
       </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-4">
-
+    <div class="grid grid-cols-1 gap-4 py-4">
+      <PostCard v-for="offering in props.offerings" :key="offering.id" :id="offering.id" :avatar="offering.avatar"
+                :name="offering.name" :time="offering.time" :body="offering.body" :photos="offering.photos">
+      </PostCard>
     </div>
+
+    <div class="w-full bottom-0 h-14 relative bg-white shadow sticky">
+      <div class="left-[16px] top-[8px] absolute bg-green-900 justify-center items-center w-[350px] mx-auto">
+        <a href="#" @click="offerNow"  class="w-full h-10 justify-center items-center">
+          <div class="bg-green-900w-full px-6 py-2 rounded">
+            <div class="text-center text-white text-base font-bold font-['Lato'] leading-normal tracking-wide">Offer Now
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <client-only>
+      <vue-bottom-sheet ref="offerBS" :overlay-color="'#1B77DF80'">
+        <Offer/>
+      </vue-bottom-sheet>
+    </client-only>
   </div>
 </template>
 

@@ -17,6 +17,11 @@ const route = useRoute();
             <font-awesome-icon :icon="['fas', 'arrow-left']"></font-awesome-icon>&nbsp;
           </client-only> Pickup Detail</a>
         </div>
+        <div v-if="route.name === 'addpost'">
+          <a href="/" class="font-bold"><client-only>
+            <font-awesome-icon :icon="['fas', 'arrow-left']"></font-awesome-icon>&nbsp;
+          </client-only> Post</a>
+        </div>
         <div v-if="route.name === 'lookingstuff'">
           <div class="w-full h-14 py-2 flex-col justify-start items-start gap-2.5 inline-flex">
             <div class="justify-start items-center gap-3 inline-flex">
@@ -28,9 +33,9 @@ const route = useRoute();
                 </a>
               </div>
               <div class="justify-start items-center gap-2 flex">
-                <img class="w-9 h-9 rounded-full" src="https://placekitten.com/36x36" />
+                <img class="w-9 h-9 rounded-full" src="https://placekitten.com/36/36" />
                 <div class="flex-col justify-start items-start inline-flex">
-                  <div class="w-full h-5 text-white text-sm font-bold leading-tight tracking-wide">Joo Min Ten</div>
+                  <div class="w-full h-5 text-white text-sm font-bold leading-tight tracking-wide">Dayat Rungkad</div>
                   <div class="justify-start items-center gap-0.5 inline-flex">
                     <div class="text-white text-xs font-normal leading-none">Yogyakarta dan sekitarnya</div>
                     <span class="text-gray-300">•</span>

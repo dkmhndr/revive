@@ -18,10 +18,10 @@ const route = useRoute();
         <span class="text-sm text-green-900 dark:text-green-900 group-hover:text-green-600 dark:group-hover:text-blue-500">Home</span>
       </button>
       <div class="text-center">
-        <a href="#" class="mx-auto flex items-center justify-center w-16 h-16 rounded-full bg-green-900 hover:bg-green-600 text-white text-xl -mt-8">
+        <a href="/addpost" class="mx-auto flex items-center justify-center w-16 h-16 rounded-full bg-green-900 hover:bg-green-600 text-white text-xl -mt-8">
           <font-awesome-icon :icon="['fas', 'plus']"></font-awesome-icon>
         </a>
-        <span class=" text-sm text-green-900 dark:text-green-900 group-hover:text-green-600 dark:group-hover:text-blue-500">Add</span>
+        <span class=" text-sm text-green-900 dark:text-green-900 group-hover:text-green-600 dark:group-hover:text-blue-500">Post</span>
       </div>
       <button type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
         <svg class="w-5 h-5 mb-2 text-green-900 dark:text-green-900 group-hover:text-green-600 dark:group-hover:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

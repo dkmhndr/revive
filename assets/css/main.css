@@ -1,16 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer components {
-  .carousel::-webkit-scrollbar {
-    display: block;
-  }
+/*@layer components {*/
+/*  .carousel::-webkit-scrollbar {*/
+/*    display: block;*/
+/*  }*/
 
-  .carousel::-webkit-scrollbar-track {
-    @apply bg-current rounded-b-full hidden md:block;
-  }
+/*  .carousel::-webkit-scrollbar-track {*/
+/*    @apply bg-current rounded-b-full hidden md:block;*/
+/*  }*/
 
-  .carousel::-webkit-scrollbar-thumb {
-      @apply bg-base-300 rounded-b-full hidden md:block;
-  }
-}
+/*  .carousel::-webkit-scrollbar-thumb {*/
+/*      @apply bg-base-300 rounded-b-full hidden md:block;*/
+/*  }*/
+/*}*/

@@ -17,7 +17,6 @@
     <vue-bottom-sheet ref="sort" :overlay-color="'#1B77DF80'">
         <Sort/>
     </vue-bottom-sheet>
-
   </client-only>
 </template>
 

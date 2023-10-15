@@ -36,7 +36,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <a href="/detail">
+  <a :href="props.type === 'Offering' ? '/detail' : '/lookingstuff'">
   <div class="w-full h-fit py-3 bg-white flex-col justify-start items-center gap-3 inline-flex">
     <div class="px-4 h-5 mb-2 mt-2 w-full justify-between items-center inline-flex">
       <div class="justify-start items-center gap-2 inline-flex">
