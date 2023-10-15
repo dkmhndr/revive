@@ -136,8 +136,8 @@ const props = defineProps({
     </div>
 
     <div class="w-full bottom-0 h-14 relative bg-white shadow sticky">
-      <div class="left-[16px] top-[8px] absolute bg-green-900 justify-center items-center w-[350px] mx-auto">
-        <a href="#" @click="offerNow"  class="w-full h-10 justify-center items-center">
+      <div @click="offerNow" class="left-[16px] top-[8px] absolute bg-green-900 justify-center items-center w-[350px] mx-auto">
+        <a href="#"   class="w-full h-10 justify-center items-center">
           <div class="bg-green-900w-full px-6 py-2 rounded">
             <div class="text-center text-white text-base font-bold font-['Lato'] leading-normal tracking-wide">Offer Now
             </div>
