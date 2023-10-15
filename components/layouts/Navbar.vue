@@ -28,7 +28,7 @@ const route = useRoute();
                 </a>
               </div>
               <div class="justify-start items-center gap-2 flex">
-                <img class="w-9 h-9 rounded-full" src="https://via.placeholder.com/36x36" />
+                <img class="w-9 h-9 rounded-full" src="https://placekitten.com/36x36" />
                 <div class="flex-col justify-start items-start inline-flex">
                   <div class="w-full h-5 text-white text-sm font-bold leading-tight tracking-wide">Joo Min Ten</div>
                   <div class="justify-start items-center gap-0.5 inline-flex">

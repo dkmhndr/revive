@@ -40,7 +40,7 @@ const props = defineProps({
   <div class="w-full h-fit py-3 bg-white flex-col justify-start items-center gap-3 inline-flex">
     <div class="px-4 h-5 mb-2 mt-2 w-full justify-between items-center inline-flex">
       <div class="justify-start items-center gap-2 inline-flex">
-        <img class="w-10 h-10 rounded-full" src="https://via.placeholder.com/40x40"/>
+        <img class="w-10 h-10 rounded-full" :src="props.avatar"/>
         <div class="flex-col justify-start items-start inline-flex">
           <div class="justify-start items-center gap-[182px] inline-flex">
             <div class="w-fit h-5 text-zinc-700 text-sm font-bold leading-tight tracking-wide">{{ props.name }}</div>
