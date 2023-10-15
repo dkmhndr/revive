@@ -40,30 +40,27 @@ const postNow = () => {
     <div class="w-[375px] h-[680px] bg-white flex-col justify-start items-center flex">
       <div class="w-[375px] h-px justify-center items-center inline-flex"></div>
       <div class="flex-col justify-start items-start flex">
-        <div class="h-[84px] px-4 py-2 flex-col justify-start items-start gap-2.5 flex">
+        <div class="w-full h-[84px] px-4 py-2 flex-col justify-start items-start gap-2.5 inline-flex">
           <div class="self-stretch h-[68px] flex-col justify-start items-start gap-1 flex">
             <div class="self-stretch py-0.5 justify-start items-start gap-2 inline-flex">
               <div class="grow shrink basis-0"><span :style="'text-red-600 text-sm font-bold leading-tight tracking-wide'">*</span><span :style="'text-zinc-700 text-sm font-bold leading-tight tracking-wide'"> Product Name</span></div>
             </div>
-            <div class="self-stretch w-full h-10 p-2 rounded-[5px] border border-stone-300 flex-col justify-center items-start gap-2.5 flex">
-              <input type="text" class="form-control w-full" placeholder="Product Name">
+            <div class="self-stretch h-10 p-2 rounded-[5px] border border-stone-300 flex-col justify-center items-start gap-2.5 flex">
+              <input type="text" class="form-control w-full" name="" id="" placeholder="Product Name">
             </div>
           </div>
         </div>
-        <div class="h-[100px] px-4 py-2 flex-col justify-start items-start gap-2.5 flex">
-          <div class="self-stretch h-[84px] flex-col justify-start items-start gap-1 flex">
-            <div class="self-stretch py-0.5 justify-start items-start gap-2 inline-flex">
-              <div class="grow shrink basis-0"><span :style="'text-red-600 text-sm font-bold leading-tight tracking-wide'">*</span><span :style="'text-zinc-700 text-sm font-bold leading-tight tracking-wide'"> Value of Money</span></div>
+        <div class="px-4 w-full h-[100px] flex-col justify-start items-start gap-1 inline-flex">
+          <div class="self-stretch py-0.5 justify-start items-start gap-2 inline-flex">
+            <div class="grow shrink basis-0"><span :style="'text-red-600 text-sm font-bold leading-tight tracking-wide'">*</span><span :style="'text-zinc-700 text-sm font-bold leading-tight tracking-wide'"> Value of Money</span></div>
+          </div>
+          <div class="self-stretch h-[72px] flex-col justify-start items-start gap-2 flex">
+            <div class="self-stretch h-10 p-2 rounded-[5px] border border-stone-300 flex-col justify-center items-start gap-2.5 flex">
+              <input type="number" class="form-control w-full" name="" id="" placeholder="Value of Money">
             </div>
-            <div class="self-stretch h-14 flex-col justify-start items-start gap-2 flex">
-              <div class="w-[328px] justify-start items-center gap-1 inline-flex">
-                <input type="radio" class="radio" name="value" id="" >
-                <div class="text-zinc-700 text-sm font-normal leading-tight">Free</div>
-              </div>
-              <div class="w-[328px] justify-start items-center gap-1 inline-flex">
-                <input type="radio" class="radio" name="value" id="">
-                <div class="text-zinc-700 text-sm font-normal leading-tight">Value of money</div>
-              </div>
+            <div class="w-[328px] justify-start items-center gap-1 inline-flex">
+              <input type="checkbox" class="checkbox" name="" id="">
+              <div class="text-zinc-700 text-sm font-normal leading-tight">Free</div>
             </div>
           </div>
         </div>
@@ -95,7 +92,7 @@ const postNow = () => {
             </div>
             <div class="w-full h-fit px-1 py-1 rounded-lg justify-start items-start gap-4 inline-flex">
               <div class="flex-col justify-start items-start gap-1 inline-flex">
-                <textarea class="textarea bg-gray-200">Type here the description your product</textarea>
+                <textarea class="w-100 textarea bg-gray-200">Type here the description your product</textarea>
               </div>
             </div>
           </div>
@@ -166,7 +163,7 @@ const postNow = () => {
         <client-only>
           <font-awesome-icon :icon="['fas', 'check-circle']" class="text-6xl w-20 h-20 text-green-500"></font-awesome-icon>
         </client-only>
-        <div class="self-stretch text-center text-neutral-700 text-xl font-bold font-['Lato'] leading-7 tracking-wide">Post success</div>
+        <div class="self-stretch text-center text-neutral-700 text-xl font-bold leading-7 tracking-wide">Post success</div>
       </div>
     </vue-bottom-sheet>
   </client-only>
