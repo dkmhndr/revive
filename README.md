@@ -27,14 +27,14 @@ By using Revive, you are not only decluttering your life but also participating 
 
 ## Contributors
 
-Revive is crafted with 🥳 for (#ShrimpHack2023🦐)[https://shrimphack.com] by
+Revive is crafted with 🥳 for [#ShrimpHack2023🦐](https://shrimphack.com) by
 - Ardiana Rangga Pradana Putra
 - Tiara Chairunnisa
-- Rizki Permana Wardiman (*also checkout his design here!)[https://www.figma.com/file/2lwf7x9ePitRrzJnZ5yDLy/Revive?type=design&node-id=22%3A2924&mode=design&t=dw6FaBgjgT7XLzbK-1]
+- Rizki Permana Wardiman [*also checkout his design here!](https://www.figma.com/file/2lwf7x9ePitRrzJnZ5yDLy/Revive?type=design&node-id=22%3A2924&mode=design&t=dw6FaBgjgT7XLzbK-1)
 - Dika Mahendra
 
 ## Special Thanks To
-- (JALA Tech)[https://jala.tech]
-- (ShrimpHack 2023)[https://shrimphack.com]
+- [JALA Tech](https://jala.tech)
+- [ShrimpHack 2023](https://shrimphack.com)
 - Our beloved family and colleagues
 - and you :*
