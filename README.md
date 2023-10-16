@@ -1,63 +1,40 @@
-# Nuxt 3 Minimal Starter
+# 📦🪽 REVIVE: Your Clutter Next Life!
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Revive is a web and mobile application that simplifies the process of selling, buying, or giving away rarely used items. It provides a user-friendly platform to connect individuals looking to declutter their homes and find new homes for their unused items. With Revive, you can declutter, make extra money, and contribute to reducing waste by giving items a second life.
 
-## Setup
+## Features
 
-Make sure to install the dependencies:
+- **Create Listings:** Easily create listings for items you want to sell, give away, or trade.
+- **Browse and Search:** Browse a wide variety of items or search for specific ones.
+- **In-App Messaging:** Communicate with buyers or sellers directly within the app.
+- **User Profiles:** View user profiles and ratings to establish trust.
+- **Categories and Tags:** Organize listings and find items by category or tags.
+- **Geolocation:** Filter items based on your location to find nearby deals.
+- **User Reviews and Ratings:** Leave and read reviews and ratings for a transparent experience.
+- **Responsive Design:** Access Revive on both web and mobile devices.
 
-```bash
-# npm
-npm install
+## Our Mission: Revive Unused Stuff
 
-# pnpm
-pnpm install
+At Revive, our primary mission is to create a positive impact by breathing new life into unused items. We believe in the power of community and sustainability. Our platform is designed to achieve the following goals:
 
-# yarn
-yarn install
-```
+- **Reduce Waste:** By connecting individuals who have unused items with those who need them, we actively contribute to the reduction of waste. Every item that finds a new home means one less item in the landfill.
 
-## Development Server
+- **Sustainable Living:** We promote sustainable living by encouraging people to extend the life of their possessions. Items that might have been discarded can now have a second chance to be useful.
 
-Start the development server on `http://localhost:3000`:
+- **Community Building:** Revive is not just an app; it's a community of like-minded individuals who share, trade, and support each other. We believe in the power of community bonds that form through the exchange of items.
 
-```bash
-# npm
-npm run dev
+By using Revive, you are not only decluttering your life but also participating in a meaningful effort to make the world a greener and more connected place. Together, we can make a difference, one item at a time.
 
-# pnpm
-pnpm run dev
+## Contributors
 
-# yarn
-yarn dev
-```
+Revive is crafted with 🥳 for (#ShrimpHack2023🦐)[https://shrimphack.com] by
+- Ardiana Rangga Pradana Putra
+- Tiara Chairunnisa
+- Rizki Permana Wardiman (*also checkout his design here!)[https://www.figma.com/file/2lwf7x9ePitRrzJnZ5yDLy/Revive?type=design&node-id=22%3A2924&mode=design&t=dw6FaBgjgT7XLzbK-1]
+- Dika Mahendra
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Special Thanks To
+- (JALA Tech)[https://jala.tech]
+- (ShrimpHack 2023)[https://shrimphack.com]
+- Our beloved family and colleagues
+- and you :*
